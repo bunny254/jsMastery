@@ -11,6 +11,8 @@ const musicData = [
     { artist: 'Rihanna', name: 'Anti', sales: 603000 },
     { artist: 'Justin Bieber', name: 'Purpose', sales: 554000 }
 ]
-const albumSalesStrings=musicData.map(music=>music.name+' '+music.artist+' '+music.sales)
+const albumSalesStrings=musicData.map(music=>music.name+' '+music.artist+' '+music.sales);
 
-console.log(albumSalesStrings);
+const specChars=musicData.filter(data=>data.name.length>10 || data.name.length>25);
+
+console.log(specChars);
