@@ -1,6 +1,7 @@
-function SoftwareDeveloper(){
-    this.language="JavaScript";
+function Hero(name,role){
+    this.name=name;
+    this.role=role;
 }
 
-let developer=new SoftwareDeveloper();
-console.log(developer);
+let Uhuru=new Hero("Kenyatta","MauMau")
+console.log(Uhuru.name);
