@@ -3,18 +3,14 @@
 let nums=[2,3,6,5,6]
 
 const secondLargest=(nums)=>{
-     let sorted=nums.sort();
+     let sorted=nums.sort((a,b)=>a-b);
      let clean=[];
      for(let i=0; i<sorted.length; i++){
         if(sorted[i]!== sorted[i+1]){
             clean.push(sorted[i])
         }
      }
-        console.log(clean.pop());
-     return clean.length
-    
+        clean.pop();
+     return clean[clean.length-1]    
 }
-
 console.log(secondLargest(nums))
-
-
