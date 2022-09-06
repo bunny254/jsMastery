@@ -1,7 +1,7 @@
-function Hero(name,role){
-    this.name=name;
-    this.role=role;
+function Hero(a,b){
+    this.fname=a;
+    this.role=b;
 }
 
 let Uhuru=new Hero("Kenyatta","MauMau")
-console.log(Uhuru.name);
+console.log(Uhuru.fname);
