@@ -5,7 +5,6 @@ const grid = [
     [16, 17, 18, 19, 20],
   ];
 
-  for(let i=0; i<grid.length; i++){
-    console.log(grid[i]);
-  }
-
+for(let i=0; i<grid.length; i++){
+  console.log(grid[i]);
+}

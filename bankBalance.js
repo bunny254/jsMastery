@@ -1,8 +1,8 @@
-let balance=50;
+let balance=0;
 let isActive=true;
-let checkbalance=false;
+let checkbalance=true;
 
-if(checkbalance==true && isActive==true && balance>0){
+if(checkbalance==true && isActive==true && balance>=0){
   console.log(`Dear customer your balance is $${balance}`);
 }
 else if(checkbalance==true && isActive==false && balance>0){

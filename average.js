@@ -1,7 +1,6 @@
 const findAvg=(x,y)=>{
-    let answer=(x+y)/2;
-    return answer;
+    let avg=(x+y)/2;
+    return avg;
 }
 
-const avg=findAvg(10,10)
-console.log(avg);
+console.log(findAvg(10,50));
